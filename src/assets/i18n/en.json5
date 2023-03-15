@@ -2855,9 +2855,9 @@
 
   "repository.image.logo": "Repository logo",
 
-  "repository.title.prefix": "Digital Repository at Najran University  ::",
+  "repository.title.prefix": "Digital Repository at Imam Mohammad Ibn Saud Islamic University  ::",
 
-  "repository.title.prefixDSpace": "Digital Repository at Najran University  ::",
+  "repository.title.prefixDSpace": "Digital Repository at Imam Mohammad Ibn Saud Islamic University  ::",
 
   "resource-policies.add.button": "Add",
 
@@ -6084,6 +6084,8 @@
 
   "item.edit.register-doi.to-update": "The following DOI has already been minted and will be queued for registration online",
   "profile.security.form.label.current-password": "Current password",
+
+  'suborgunit-previous-label':'(previously)',
 }
 
 

@@ -6162,4 +6162,6 @@
 
    "item.edit.register-doi.to-update": "تم بالفعل سكك معرف المعرف الرقمي (DOI) التالي وسيتم وضعه في قائمة الانتظار للتسجيل عبر الإنترنت" ,
    "profile.security.form.label.current-password": "كلمة المرور الحالية" ,
+
+   'suborgunit-previous-label':'(سابقًا)',
 }
