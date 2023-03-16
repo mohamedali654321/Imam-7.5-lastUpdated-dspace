@@ -80,7 +80,7 @@ import { DsDatePickerInlineComponent } from './models/date-picker-inline/dynamic
 import { DYNAMIC_FORM_CONTROL_TYPE_CUSTOM_SWITCH } from './models/custom-switch/custom-switch.model';
 import { CustomSwitchComponent } from './models/custom-switch/custom-switch.component';
 import { find, map, startWith, switchMap, take } from 'rxjs/operators';
-import { combineLatest as observableCombineLatest, Observable, Subscription } from 'rxjs';
+import { BehaviorSubject, combineLatest as observableCombineLatest, Observable, Subscription } from 'rxjs';
 import { DsDynamicTypeBindRelationService } from './ds-dynamic-type-bind-relation.service';
 import { SearchResult } from '../../../search/models/search-result.model';
 import { DSpaceObject } from '../../../../core/shared/dspace-object.model';
@@ -141,7 +141,7 @@ export function dsDynamicFormControlMapFn(model: DynamicFormControlModel): Type<
       return DsDynamicFormGroupComponent;
 
     case DYNAMIC_FORM_CONTROL_TYPE_INPUT:
-      return DynamicNGBootstrapInputComponent;
+      return  DynamicNGBootstrapInputComponent;
 
     case DYNAMIC_FORM_CONTROL_TYPE_RADIO_GROUP:
       return (model instanceof DynamicListRadioGroupModel) ? DsDynamicListComponent : DynamicNGBootstrapRadioGroupComponent;
@@ -218,6 +218,8 @@ export class DsDynamicFormControlContainerComponent extends DynamicFormControlCo
   listId: string;
   searchConfig: string;
   value: MetadataValue;
+ label : string;
+
   /**
    * List of subscriptions to unsubscribe from
    */
@@ -239,7 +241,15 @@ export class DsDynamicFormControlContainerComponent extends DynamicFormControlCo
   fetchThumbnail: boolean;
 
   get componentType(): Type<DynamicFormControl> | null {
-    return dsDynamicFormControlMapFn(this.model);
+   /* kware-edit start
+    -hide input text in entity fields
+    */
+    // return dsDynamicFormControlMapFn(this.model);
+
+    return hasValue(this.model.relationship) ? null : dsDynamicFormControlMapFn(this.model);
+
+    // kware-edit end
+
   }
 
   constructor(
@@ -270,7 +280,10 @@ export class DsDynamicFormControlContainerComponent extends DynamicFormControlCo
   /**
    * Sets up the necessary variables for when this control can be used to add relationships to the submitted item
    */
-  ngOnInit(): void {
+  ngOnInit(): void {   
+
+    this.label =this.model.label;
+    console.log(this.label);
     this.isRelationship = hasValue(this.model.relationship);
     const isWrapperAroundRelationshipList = hasValue(this.model.relationshipConfig);
 
