@@ -64,6 +64,12 @@
           </span>
         </ds-truncatable-part>
       </p>
+      <ds-truncatable-part *ngIf=" dso.hasMetadata('dc.description') " [id]="dso.id" [minLines]="3">
+        <p class="text-muted">
+          <!-- kware-edit kwareTranslatePipe -->
+            <span [innerHTML]=" dso.firstMetadataValue('dc.description') | kwareTranslate"></span>
+        </p>
+    </ds-truncatable-part>
       <div *ngIf="linkType != linkTypes.None" class="text-center">
         <a [target]="(linkType == linkTypes.ExternalLink) ? '_blank' : '_self'"
            rel="noopener noreferrer" [routerLink]="[itemPageRoute]"

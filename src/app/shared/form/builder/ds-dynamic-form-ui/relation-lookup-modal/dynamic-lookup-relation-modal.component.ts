@@ -302,10 +302,10 @@ export class DsDynamicLookupRelationModalComponent implements OnInit, OnDestroy 
   }
 
   ngOnDestroy() {
-      // this.router.navigate([], {});
+       this.router.navigate([], {});
     
     /** kware start edit -- fix search modal focus */
-    this.location.replaceState(window.location.pathname);
+    // this.location.replaceState(window.location.pathname);
     /** kware end edit */
     Object.values(this.subMap).forEach((subscription) => subscription.unsubscribe());
   }

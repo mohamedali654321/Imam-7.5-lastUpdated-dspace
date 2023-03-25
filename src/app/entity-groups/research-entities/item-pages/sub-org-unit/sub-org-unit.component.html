@@ -107,10 +107,22 @@
       [fields]="['organization.email']"
       [label]="'person.page.email'">
     </ds-generic-item-page-field>
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['organization.website']"
+    [label]="'organization.page.website'">
+  </ds-generic-item-page-field>
+
     <ds-generic-item-page-field [item]="object"
       [fields]="['organization.telephone']"
-      [label]="'person.page.telephone'">
+      [label]="'place.page.telephone'">
     </ds-generic-item-page-field>
+
+
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.identifier.fax']"
+    [label]="'page.page.fax'">
+  </ds-generic-item-page-field>
 
 
 
@@ -146,14 +158,16 @@
    <!-- <ds-pdf-viewer [item]="object"></ds-pdf-viewer> -->
 
    <ds-generic-item-page-field [item]="object"
+   [fields]="['dc.description']"
+   [label]="'orgunit.page.description'">
+ </ds-generic-item-page-field>
+
+
+   <ds-generic-item-page-field [item]="object"
     [fields]="['dc.relation.specialization']"
     [label]="'item.page.specialization'">
     </ds-generic-item-page-field>
     
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.description']"
-      [label]="'orgunit.page.description'">
-    </ds-generic-item-page-field>
 
     <ds-generic-item-page-field [item]="object"
     [fields]="['organization.role']"
