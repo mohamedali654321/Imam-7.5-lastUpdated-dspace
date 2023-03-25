@@ -6110,6 +6110,11 @@
   'journalissue.page.oldFrequancy':'Previous publishing frequency',
 
   'new.name.variant':'New name variant',
+
+  'submission.sections.describe.relationship-lookup.selection-tab.title.isAdministrationOfPublication':'Selected administrations',
+
+ 'submission.sections.describe.relationship-lookup.selection-tab.title.isPersonOfPublication':'Selected persons',
+
 }
 
 

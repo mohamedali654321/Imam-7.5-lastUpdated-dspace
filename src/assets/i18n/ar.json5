@@ -6189,4 +6189,9 @@
 
   'new.name.variant':'متغير الاسم الجديد',
 
+  'submission.sections.describe.relationship-lookup.selection-tab.title.isAdministrationOfPublication':'الإدارات المحددة',
+
+  'submission.sections.describe.relationship-lookup.selection-tab.title.isPersonOfPublication':'الأشخاص المحددين',
+
+
 }
