@@ -6115,6 +6115,8 @@
 
  'submission.sections.describe.relationship-lookup.selection-tab.title.isPersonOfPublication':'Selected persons',
 
+ 'statistics.table.header':'Views',
+
 }
 
 
