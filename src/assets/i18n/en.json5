@@ -5638,8 +5638,8 @@
 "submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfPublication":"Local Activities ({{ count }})",
 
 
-'submission.sections.describe.relationship-lookup.title.isAdministrationOfPublication':'Sub-Organizational Unit',
-'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfPublication':'Local Sub-Organizational Units ({{ count }})',
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfPublication':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfPublication':'Local Administrations ({{ count }})',
 
 'submission.sections.describe.relationship-lookup.title.isPlaceOfPublication':'Places',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPlaceOfPublication':'Local Places ({{ count }})',
@@ -5657,8 +5657,8 @@
 'submission.sections.describe.relationship-lookup.title.isSeriesOfPublication':'Series',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isSeriesOfPublication':'Local Series ({{ count }})',
 
-'submission.sections.describe.relationship-lookup.title.isAdministrationOfPublication':'Sub-Organizational Unit',
-'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfPublication':'Local Sub-Organizational Units ({{ count }})',
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfPublication':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfPublication':'Local Administrations ({{ count }})',
 
 'submission.sections.describe.relationship-lookup.title.isDiscussionOfPublication':'Members of the discussion and arbitration committee',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isDiscussionOfPublication':'Local Members of the discussion and arbitration committee ({{ count }})',
@@ -5743,8 +5743,8 @@
 'submission.sections.describe.relationship-lookup.title.isPublicationOfSite':'Publications',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfSite':'Local Publications ({{ count }})',
 
-'submission.sections.describe.relationship-lookup.title.isAdministrationOfSite':'Sub-Organizational Unit',
-'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfSite':'Local Sub-Organizational Units ({{ count }})',
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfSite':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfSite':'Local Administrations ({{ count }})',
 
 'submission.sections.describe.relationship-lookup.title.isOrgUnitOfSite':'Organizational Unit',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfSite':'Local Organizational Units ({{ count }})',
@@ -5764,8 +5764,8 @@
 'submission.sections.describe.relationship-lookup.title.isPublicationOfActivity':'Publications',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPublicationOfActivity':'Local Publications ({{ count }})',
 
-'submission.sections.describe.relationship-lookup.title.isAdministrationOfActivity':'Sub-Organizational Unit',
-'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfActivity':'Local Sub-Organizational Units ({{ count }})',
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfActivity':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfActivity':'Local Administrations ({{ count }})',
 
 'submission.sections.describe.relationship-lookup.title.isOrgUnitOfActivity':'Organizational Unit',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfActivity':'Local Organizational Units ({{ count }})',
@@ -6116,6 +6116,10 @@
  'submission.sections.describe.relationship-lookup.selection-tab.title.isPersonOfPublication':'Selected persons',
 
  'statistics.table.header':'Views',
+
+
+ 'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':'Local Administrations ({{ count }})',
 
 }
 

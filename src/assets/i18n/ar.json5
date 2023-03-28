@@ -6197,4 +6197,8 @@
   'statistics.table.header':'مشاهدة',
 
 
+  'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'الإدارات',
+  'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':' الإدارات المحلية ({{ count }})',
+
+
 }
