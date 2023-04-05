@@ -3696,7 +3696,7 @@
 
    "submission.sections.submit.progressbar.manuscriptPhysicalDescribe.stepone":"Physical description ",
 
-   "submission.sections.submit.progressbar.manuscriptObjectiveDescribe.stepone":"Objective term",
+   "submission.sections.submit.progressbar.manuscriptObjectiveDescribe.stepone":"Insights",
 
   "submission.sections.submit.progressbar.describe.steptwo": "Additional description",
 
@@ -6120,6 +6120,11 @@
 
  'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'Administration',
 'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':'Local Administrations ({{ count }})',
+
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfOrgUnit":"Activities",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfOrgUnit":"Local Activities ({{ count }})",
+
 
 }
 

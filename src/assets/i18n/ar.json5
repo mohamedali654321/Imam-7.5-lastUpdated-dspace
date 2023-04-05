@@ -3711,7 +3711,7 @@
 
    "submission.sections.submit.progressbar.manuscriptPhysicalDescribe.stepone":"الوصف المادي",
 
-   "submission.sections.submit.progressbar.manuscriptObjectiveDescribe.stepone":" المصطلح الموضوعي",
+   "submission.sections.submit.progressbar.manuscriptObjectiveDescribe.stepone":"التبصرات",
 
   "submission.sections.submit.progressbar.describe.steptwo": "الوصف الاضافي",
 
@@ -6197,8 +6197,10 @@
   'statistics.table.header':'مشاهدة',
 
 
-  'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'الإدارات',
-  'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':' الإدارات المحلية ({{ count }})',
+ "submission.sections.describe.relationship-lookup.title.isActivityOfOrgUnit":"الفعاليات",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfOrgUnit":"الفعاليات المحلية  ({{ count }})",
+
+
 
 
 }
