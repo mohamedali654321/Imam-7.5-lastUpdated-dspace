@@ -6126,6 +6126,12 @@
 "submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfOrgUnit":"Local Activities ({{ count }})",
 
 
+'relationships.isAdvisorsOf':'Advisors',
+'relationships.isPublisherOf':'Publishers',
+'relationships.isDiscussionOf':'Members of the Discussion and Judging Committee',
+
+
+
 }
 
 

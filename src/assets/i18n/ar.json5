@@ -6203,4 +6203,11 @@
 
 
 
+'relationships.isAdvisorsOf':'المشرفين',
+'relationships.isPublisherOf':'الناشرين',
+'relationships.isDiscussionOf':'أعضاء لجنة المناقشة والتحكيم',
+
+
+
+
 }
