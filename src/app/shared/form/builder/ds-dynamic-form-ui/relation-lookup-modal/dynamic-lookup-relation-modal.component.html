@@ -71,8 +71,14 @@
 
                 <!-- kware start edit 
                 -- add fast add btn -->
-                <div *ngIf="collectionIdByEntity">
+                <!-- <div *ngIf="collectionIdByEntity">
                     <a href="/workspaceitems/{{submissionIdByEntity}}/edit"  class="nav-link btn btn-primary"  role="button" target="_blank"  > <span><i class="fas fa-plus"></i>  {{('entity.add' | translate) + ' ' + (modelPlaceholder?.startsWith('ال') ?  modelPlaceholder.slice(2,1000) : modelPlaceholder)}}</span> 
+                    </a>
+    
+                </div> -->
+
+                <div *ngIf="collectionIdByEntity">
+                    <a [routerLink]="['/workspaceitems/',submissionIdByEntity,'edit']" [queryParams]="{ action: 'fastAdd',entityType: relationshipOptions?.searchConfiguration }"  class="nav-link btn btn-primary"  role="button" target="_blank"  > <span><i class="fas fa-plus"></i>  {{('entity.add' | translate) + ' ' + (modelPlaceholder?.startsWith('ال') ?  modelPlaceholder.slice(2,1000) : modelPlaceholder)}}</span> 
                     </a>
     
                 </div>
