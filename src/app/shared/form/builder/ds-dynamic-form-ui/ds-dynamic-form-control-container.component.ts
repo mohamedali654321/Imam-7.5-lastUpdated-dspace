@@ -476,6 +476,9 @@ export class DsDynamicFormControlContainerComponent extends DynamicFormControlCo
     modalComp.item = this.item;
     modalComp.collection = this.collection;
     modalComp.submissionId = this.model.submissionId;
+    /** kware start edit -- add fast add btn */
+    modalComp.modelPlaceholder = this.model.placeholder;
+      /** kware end edit */
   }
 
   /**

@@ -98,6 +98,12 @@
       [label]="'journalissue.page.keyword'">
     </ds-generic-item-page-field>
 
+    <ds-generic-item-page-field [item]="object"
+    [fields]="['dc.subject']"
+    [separator]="','"
+    [label]="'item.page.subject'">
+  </ds-generic-item-page-field>
+
     <ds-related-items
     [parentItem]="object"
     [relationType]="'isJournalVolumeOfIssue'"

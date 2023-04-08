@@ -6093,6 +6093,25 @@
 
    'page.page.fax':'Fax number',
 
+
+       "search.filters.filter.show-tree": "Browse {{ name }} tree",
+
+    "vocabulary-treeview.header": "Hierarchical tree view",
+
+  "vocabulary-treeview.load-more": "Load more",
+
+  "vocabulary-treeview.search.form.reset": "Reset",
+
+  "vocabulary-treeview.search.form.search": "Search",
+
+  "vocabulary-treeview.search.no-result": "There were no items to show",
+
+  "vocabulary-treeview.tree.description.nsi": "The Norwegian Science Index",
+
+  "vocabulary-treeview.tree.description.srsc": "Research Subject Categories",
+
+  "vocabulary-treeview.info": "Select a subject to add as search filter",
+
     "admin.registries.bitstream-formats.table.id" : "ID",
     "admin.registries.schema.fields.table.id" : "ID",
     "sorting.person.familyName.ASC":"Surname Ascending",
@@ -6129,6 +6148,23 @@
 'relationships.isAdvisorsOf':'Advisors',
 'relationships.isPublisherOf':'Publishers',
 'relationships.isDiscussionOf':'Members of the Discussion and Judging Committee',
+
+
+
+  'add.entity.person':'Add Person',
+  'add.entity.publication':'Add Publication',
+  'add.entity.orgunit':'Add Organization',
+  'add.entity.administration':'Add Administration',
+  'add.entity.journalissue':'Add Journal Issue',
+  'add.entity.journalvolume':'Add Journal Volume',
+  'add.entity.journal':'Add Journal',
+  'add.entity.event':'Add Event',
+  'add.entity.activity':'Add Activity',
+  'add.entity.place':'Add Place',
+  'add.entity.site':'Add Site',
+  'add.entity.project':'Add Project',
+  'add.entity.series':'Add Series',
+  'add.entity.era':'Add Era',
 
 
 

@@ -6171,6 +6171,25 @@
 
    'page.page.fax':'رقم الفاكس',
 
+
+       "search.filters.filter.show-tree": "تصفح شجرة {{name}}",
+
+    "vocabulary-treeview.header": "عرض الشجرة الهرمي" ,
+
+   "vocabulary-treeview.load-more": "تحميل المزيد" ,
+
+   "vocabulary-treeview.search.form.reset": "إعادة تعيين",
+
+   "vocabulary-treeview.search.form.search": "بحث" ,
+
+   "vocabulary-treeview.search.no-result": "لم تكن هناك عناصر لإظهارها" ,
+
+   "vocabulary-treeview.tree.description.srsc": "فئات موضوع البحث" ,
+
+   "vocabulary-treeview.info": "حدد موضوعًا لإضافته كعامل تصفية بحث" ,
+
+    "vocabulary-treeview.tree.description.nsi": "مؤشر العلوم النرويجي",
+
      "admin.registries.bitstream-formats.table.id" : "المعرّف",
      "admin.registries.schema.fields.table.id" : "المعرّف",
       "sorting.person.familyName.ASC":"الاسم الأخير تصاعدياً",
@@ -6206,6 +6225,25 @@
 'relationships.isAdvisorsOf':'المشرفين',
 'relationships.isPublisherOf':'الناشرين',
 'relationships.isDiscussionOf':'أعضاء لجنة المناقشة والتحكيم',
+
+
+
+
+
+  'add.entity.person':'إضافة شخص',
+  'add.entity.publication':'إضافة منشور',
+  'add.entity.orgunit':'إضافة مؤسسة',
+  'add.entity.administration':'إضافة إدارة',
+  'add.entity.journalissue':'إضافة عدد دورية',
+  'add.entity.journalvolume':'إضافة مجلد دورية',
+  'add.entity.journal':'إضافة دورية',
+  'add.entity.event':'إضافة حدث',
+  'add.entity.activity':'إضافة فعالية',
+  'add.entity.place':'إضافة مكان',
+  'add.entity.site':'إضافة موقع',
+  'add.entity.project':'إضافة مشروع',
+  'add.entity.series':'إضافة سلسة',
+  'add.entity.era':'إضافة حقبة زمنية',
 
 
 
