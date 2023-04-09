@@ -6246,6 +6246,24 @@
   'add.entity.era':'إضافة حقبة زمنية',
 
 
+  'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'الإدارات',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':' الإدارات المحلية ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isSeriesOfPlace":"السلاسل",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isSeriesOfPlace":"السلاسل المحلية ({{ count }})",
+
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfPlace":"الفعاليات",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfPlace":"الفعاليات المحلية ({{ count }})",
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfSeries":"الفعاليات",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfSeries":"الفعاليات المحلية ({{ count }})",
+
+
+ "sorting.publicationvolume.volumeNumber.DESC": "مجلد الدورية تنازلياً",
+
+ "sorting.creativework.datePublished.DESC": " تاريخ النشر تنازلياً",
+
 
 
 }

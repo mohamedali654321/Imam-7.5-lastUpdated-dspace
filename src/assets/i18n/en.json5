@@ -6166,6 +6166,23 @@
   'add.entity.series':'Add Series',
   'add.entity.era':'Add Era',
 
+ 'submission.sections.describe.relationship-lookup.title.isAdministrationOfOrgUnit':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfOrgUnit':'Local Administrations ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isSeriesOfPlace':'Series',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isSeriesOfPlace':'Local Series ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfPlace":"Activities",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfPlace":"Local Activities ({{ count }})",
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfSeries":"Activities",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfSeries":"Local Activities ({{ count }})",
+
+
+ "sorting.publicationvolume.volumeNumber.DESC": "Journal Volume Descending",
+
+ "sorting.creativework.datePublished.DESC": "Date Published Descending",
+
 
 
 }
