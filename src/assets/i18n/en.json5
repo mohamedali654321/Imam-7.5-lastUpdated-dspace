@@ -3339,7 +3339,7 @@
 
   "submission.general.save": "Save",
 
-  "submission.general.save-later": "Save for later",
+   "submission.general.save-later": "Save and Close",
 
   "submission.import-external.page.title": "Import metadata from an external source",
 
@@ -6183,7 +6183,7 @@
 
  "sorting.creativework.datePublished.DESC": "Date Published Descending",
 
-
+"submission.sections.general.cannot_deposit": "Deposit cannot be completed due to errors in the form.<br>Please fill out all required fields to complete the deposit.",
 
 }
 

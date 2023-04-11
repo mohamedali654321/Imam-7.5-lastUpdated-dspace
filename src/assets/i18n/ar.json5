@@ -3354,7 +3354,7 @@
 
   "submission.general.save": "حفظ",
 
-  "submission.general.save-later": "حفظ لوقت لاحق",
+   "submission.general.save-later": "حفظ و إغلاق",
 
   "submission.import-external.page.title": "استيراد ميتاداتا من مصدر خارجي",
 
@@ -6264,6 +6264,6 @@
 
  "sorting.creativework.datePublished.DESC": " تاريخ النشر تنازلياً",
 
-
+"submission.sections.general.cannot_deposit": "لا يمكن إتمام الإيداع بسبب وجود أخطاء في نموذج التقديم. <br> يرجى ملء جميع الحقول المطلوبة لإكمال الإيداع.",
 
 }
