@@ -29,6 +29,7 @@ import { CollectionDropdownComponent } from '../../../shared/collection-dropdown
 import { SectionsService } from '../../sections/sections.service';
 import { getFirstSucceededRemoteDataPayload } from '../../../core/shared/operators';
 import { SectionsType } from '../../sections/sections-type';
+import { ActivatedRoute } from '@angular/router';
 
 /**
  * This component allows to show the current collection the submission belonging to and to change it.
@@ -39,6 +40,19 @@ import { SectionsType } from '../../sections/sections-type';
   templateUrl: './submission-form-collection.component.html'
 })
 export class SubmissionFormCollectionComponent implements OnChanges, OnInit {
+
+  entityType='';
+
+  /*
+  kware start edit
+  - list collection length variable
+  **/
+  listCollectionLength: number;
+
+  /*
+  kware end edit
+  **/
+
 
   /**
    * The current collection id this submission belonging to
@@ -120,6 +134,7 @@ export class SubmissionFormCollectionComponent implements OnChanges, OnInit {
               private operationsBuilder: JsonPatchOperationsBuilder,
               private operationsService: SubmissionJsonPatchOperationsService,
               private submissionService: SubmissionService,
+              private route: ActivatedRoute,
               private sectionsService: SectionsService) {
   }
 
@@ -144,6 +159,7 @@ export class SubmissionFormCollectionComponent implements OnChanges, OnInit {
   ngOnInit() {
     this.pathCombiner = new JsonPatchOperationPathCombiner('sections', 'collection');
     this.available$ = this.sectionsService.isSectionTypeAvailable(this.submissionId, SectionsType.collection);
+//  this.route.queryParams.subscribe((params=>{this.entityType= params.entityType}));
   }
 
   /**
@@ -202,4 +218,15 @@ export class SubmissionFormCollectionComponent implements OnChanges, OnInit {
       this.collectionDropdown.reset();
     }
   }
+
+  /* kware start edit
+  - get listCollectionLength to check if  > 1 or not
+
+  **/
+  getListCollectionLength($event: number){
+    this.listCollectionLength=$event;    
+  }
+  /*
+  kware end edit
+  **/
 }

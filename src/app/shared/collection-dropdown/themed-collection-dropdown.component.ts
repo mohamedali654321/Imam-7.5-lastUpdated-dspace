@@ -11,14 +11,28 @@ export class ThemedCollectionDropdownComponent extends ThemedComponent<Collectio
 
   @Input() entityType: string;
 
+  /*kware start edit
+   - get selected collection from SubmissionFormCollectionComponent
+   - send  searchListCollectionLength to SubmissionFormCollectionComponent to check if length > 1
+   **/
+  @Input() selectedCollection: string;
+
+  @Output() searchListCollectionLength = new EventEmitter<number>();
+
+/*kware end edit**/
+
   @Output() searchComplete = new EventEmitter<any>();
 
   @Output() theOnlySelectable = new EventEmitter<CollectionListEntry>();
 
   @Output() selectionChange = new EventEmitter<CollectionListEntry>();
 
-  protected inAndOutputNames: (keyof CollectionDropdownComponent & keyof this)[] = ['entityType', 'searchComplete', 'theOnlySelectable', 'selectionChange'];
-
+/* 
+kware start edit 
+-add (selectedCollection , searchListCollectionLength) to inAndOutputNames
+**/
+  protected inAndOutputNames: (keyof CollectionDropdownComponent & keyof this)[] = ['entityType','selectedCollection','searchListCollectionLength','searchComplete', 'theOnlySelectable', 'selectionChange'];
+/* kware end edit***/
   protected getComponentName(): string {
     return 'CollectionDropdownComponent';
   }

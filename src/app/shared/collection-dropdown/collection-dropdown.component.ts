@@ -87,6 +87,17 @@ export class CollectionDropdownComponent implements OnInit, OnDestroy {
   searchListCollection: CollectionListEntry[] = [];
 
   @Output() selectionChange = new EventEmitter<CollectionListEntry>();
+  
+  /*
+   kware start edit
+   - length of search list collection
+   **/
+  @Output() searchListCollectionLength = new EventEmitter<number>();
+  /** kware end edit*/
+   
+   
+
+
   /**
    * A boolean representing if the loader is visible or not
    */
@@ -121,6 +132,9 @@ export class CollectionDropdownComponent implements OnInit, OnDestroy {
    * If present this value is used to filter collection list by entity type
    */
   @Input() entityType: string;
+
+  @Input() selectedCollection: string;
+
 
   /**
    * Emit to notify whether search is complete
@@ -182,6 +196,8 @@ export class CollectionDropdownComponent implements OnInit, OnDestroy {
       ));
     // Workaround for prevent the scroll of main page when this component is placed in a dialog
     setTimeout(() => this.el.nativeElement.querySelector('input').focus(), 0);
+
+ 
   }
 
   /**
@@ -267,6 +283,14 @@ export class CollectionDropdownComponent implements OnInit, OnDestroy {
     this.subs.push(
       this.searchListCollection$.subscribe((list: CollectionListEntry[]) => {
         this.searchListCollection.push(...list);
+        /*
+        kware start edit
+        - catch length of search list collection for sending to SubmissionFormCollectionComponent 
+        **/
+        this.searchListCollectionLength.emit(this.searchListCollection.length);
+        /*
+        kware end edit
+        **/
         this.hideShowLoader(false);
         this.changeDetectorRef.detectChanges();
       })
