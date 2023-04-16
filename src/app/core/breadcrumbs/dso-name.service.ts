@@ -74,6 +74,9 @@ export class DSONameService {
     Activity: (dso: DSpaceObject): string => {
       return this.localeService.getStringByLocale(dso.firstMetadataValue('event.childTitle'));
     },
+    Era: (dso: DSpaceObject): string => {
+      return this.localeService.getStringByLocale(dso.firstMetadataValue('era.title'));
+    },
     Default: (dso: DSpaceObject): string => {
       // If object doesn't have dc.title metadata use name property
              // kware-edit keywords end
@@ -171,6 +174,8 @@ export class DSONameService {
       return this.firstMetadataValue(object, dso, 'series.name');
     }else if (entityType === 'Project') {
       return this.firstMetadataValue(object, dso, 'project.name');
+    }else if (entityType === 'Era') {
+      return this.firstMetadataValue(object, dso, 'era.title');
     }
 
 

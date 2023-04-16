@@ -6266,4 +6266,13 @@
 
 "submission.sections.general.cannot_deposit": "لا يمكن إتمام الإيداع بسبب وجود أخطاء في نموذج التقديم. <br> يرجى ملء جميع الحقول المطلوبة لإكمال الإيداع.",
 
+    // Era translation
+   'era.page.century':'القرن',
+   'era.page.decade':'العقد',
+   'era.page.year':'السنة',
+   'era.page.titleprefix':'حقبة زمنية:',
+   'era.listelement.badge':'حقبة زمنية',
+
+  // Era translation
+
 }

@@ -56,7 +56,6 @@ import { SeriesSidebarSearchListElementComponent } from './item-list-elements/si
 import { SeriesSearchResultListElementComponent } from './item-list-elements/search-result-list-elements/series/series-search-result-list-element.component';
 import { SeriesGridElementComponent } from './item-grid-elements/series/series-grid-element.component';
 import { SeriesSearchResultGridElementComponent } from './item-grid-elements/search-result-grid-elements/series/series-search-result-grid-element.component';
-
 import { EntityMediaViewerComponent } from './entity-media-viewer/entity-media-viewer.component';
 import { EntityMediaViewerVideoComponent } from './entity-media-viewer/entity-media-viewer-video/entity-media-viewer-video.component';
 import { EntityMediaViewerImageComponent } from './entity-media-viewer/entity-media-viewer-image/entity-media-viewer-image.component';
@@ -75,12 +74,36 @@ import { ActivityGridElementComponent } from './item-grid-elements/activity/acti
 import { ActivitySearchResultGridElementComponent } from './item-grid-elements/search-result-grid-elements/activity/activity-search-result-grid-element.component';
 import { ResultsBackButtonModule } from '../../shared/results-back-button/results-back-button.module';
 import { DsoPageModule } from '../../shared/dso-page/dso-page.module';
+import { EraComponent } from './item-pages/era/era.component';
+import {EraGridElementComponent} from './item-grid-elements/era/era-grid-element.component';
+import {EraSearchResultGridElementComponent} from './item-grid-elements/search-result-grid-elements/era/era-search-result-grid-element.component';
+import {EraListElementComponent} from './item-list-elements/era/era-list-element.component';
+import {EraSidebarSearchListElementComponent} from './item-list-elements/sidebar-search-list-elements/era/era-sidebar-search-list-element.component';
+import {EraSearchResultListElementComponent} from './item-list-elements/search-result-list-elements/era/era-search-result-list-element.component';
+import {EventItemMetadataListElementComponent} from './metadata-representations/event/event-item-metadata-list-element.component';
+import {ActivityItemMetadataListElementComponent} from './metadata-representations/activity/activity-item-metadata-list-element.component';
+import {PlaceItemMetadataListElementComponent} from './metadata-representations/place/place-item-metadata-list-element.component';
+import {SiteItemMetadataListElementComponent} from './metadata-representations/site/site-item-metadata-list-element.component';
+import {EraItemMetadataListElementComponent} from './metadata-representations/era/era-item-metadata-list-element.component';
+import {SeriesItemMetadataListElementComponent} from './metadata-representations/series/series-item-metadata-list-element.component';
 const ENTRY_COMPONENTS = [
 // put only entry components that use custom decorator
 EntityMediaViewerComponent,
 EntityMediaViewerVideoComponent,
 EntityMediaViewerImageComponent,
 SiteComponent,
+EraComponent,
+EraGridElementComponent,
+EraSearchResultGridElementComponent,
+EraListElementComponent,
+EraSidebarSearchListElementComponent,
+EraSearchResultListElementComponent,
+EventItemMetadataListElementComponent,
+ActivityItemMetadataListElementComponent,
+PlaceItemMetadataListElementComponent,
+SiteItemMetadataListElementComponent,
+EraItemMetadataListElementComponent,
+SeriesItemMetadataListElementComponent,
 SiteListElementComponent,
 SiteSidebarSearchListElementComponent,
 SiteSearchResultListElementComponent,

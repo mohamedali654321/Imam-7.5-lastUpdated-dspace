@@ -6185,6 +6185,15 @@
 
 "submission.sections.general.cannot_deposit": "Deposit cannot be completed due to errors in the form.<br>Please fill out all required fields to complete the deposit.",
 
+    // Era translation
+   'era.page.century':'Century',
+   'era.page.decade':'Decade',
+   'era.page.year':'Year',
+   'era.page.titleprefix':'Era:',
+   'era.listelement.badge':'Era',
+
+  // Era translation
+
 }
 
 

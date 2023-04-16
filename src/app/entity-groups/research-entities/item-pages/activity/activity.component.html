@@ -177,42 +177,47 @@
      
 
 
-    <ds-generic-item-page-field [item]="object"
-      [fields]="['event.duration']"
-      [label]="'event.page.duration'">
-    </ds-generic-item-page-field>
+     <ds-generic-item-page-field [item]="object"
+     [fields]="['event.duration']"
+     [label]="'event.page.duration'">
+   </ds-generic-item-page-field>
 
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['event.audience']"
-    [label]="'event.page.audience'">
-  </ds-generic-item-page-field>
+   <ds-generic-item-page-field [item]="object"
+   [fields]="['event.audience']"
+   [label]="'event.page.audience'">
+ </ds-generic-item-page-field>
 
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['event.about']"
-    [label]="'event.page.about'">
-  </ds-generic-item-page-field>
+   <ds-generic-item-page-field [item]="object"
+   [fields]="['event.about']"
+   [label]="'event.page.about'">
+ </ds-generic-item-page-field>
 
-      <ds-generic-item-page-field [item]="object"
-        [fields]="['dc.description']"
-        [label]="'event.page.description'">
-      </ds-generic-item-page-field>
+     <ds-generic-item-page-field [item]="object"
+       [fields]="['dc.description']"
+       [label]="'event.page.description'">
+     </ds-generic-item-page-field>
 
-      <ds-generic-item-page-field [item]="object"
-      [fields]="['event.attendee.number']"
-      [label]="'event.page.attendeeNumber'">
-    </ds-generic-item-page-field>
+     <ds-generic-item-page-field [item]="object"
+     [fields]="['event.slogan']"
+     [label]="'orgunit.page.slogan'">
+   </ds-generic-item-page-field>
 
-    <ds-generic-item-page-field [item]="object"
-    [fields]="['event.audience.type']"
-    [label]="'event.page.audienceType'">
-  </ds-generic-item-page-field>
+     <ds-generic-item-page-field [item]="object"
+     [fields]="['event.attendee.number']"
+     [label]="'event.page.attendeeNumber'">
+   </ds-generic-item-page-field>
+
+   <ds-generic-item-page-field [item]="object"
+   [fields]="['event.audience.type']"
+   [label]="'event.page.audienceType'">
+ </ds-generic-item-page-field>
 
 
-  <ds-generic-item-page-field [item]="object"
-  [fields]="['event.type']"
-  [label]="'event.page.type'">
+ <ds-generic-item-page-field [item]="object"
+ [fields]="['event.type']"
+ [label]="'event.page.type'">
 </ds-generic-item-page-field>
 
 
@@ -228,11 +233,17 @@
 </ds-generic-item-page-field>
 
 
-      <ds-generic-item-page-field [item]="object"
-      [fields]="['dc.subject']"
-      [separator]="','"
-      [label]="'item.page.subject'">
-    </ds-generic-item-page-field>
+<ds-generic-item-page-field [item]="object"
+[fields]="['event.childTitle.alternative']"
+[label]="'orgunit.page.legalNameAlternative'">
+</ds-generic-item-page-field>
+
+
+     <ds-generic-item-page-field [item]="object"
+     [fields]="['dc.subject']"
+     [separator]="','"
+     [label]="'item.page.subject'">
+   </ds-generic-item-page-field>
   
   
     <ds-related-items
