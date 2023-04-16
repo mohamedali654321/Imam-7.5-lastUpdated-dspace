@@ -6273,6 +6273,37 @@
    'era.page.titleprefix':'حقبة زمنية:',
    'era.listelement.badge':'حقبة زمنية',
 
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfEra':'الإدارات',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfEra':' الإدارات المحلية ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isEventOfEra':'الأحداث',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfEra':'الأحداث المحلية ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfEra":"الفعاليات",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfEra":"الفعاليات المحلية ({{ count }})",
+
+'submission.sections.describe.relationship-lookup.title.isPlaceOfEra':'الأماكن',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPlaceOfEra':'الأماكن المحلية ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isSiteOfEra":"المواقع",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isSiteOfEra":"المواقع المحلية ({{ count }})",
+
+'submission.sections.describe.relationship-lookup.title.isOrgUnitOfEra':'المؤسسات المحلية',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfEra':'المؤسسات المحلية ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfEra':'الإدارات',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfEra':' الإدارات المحلية ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isPersonOfEra':'الأشخاص',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPersonOfEra':'الأشخاص  المحليين ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isSeriesOfEra":"السلاسل",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isSeriesOfEra":"السلاسل المحلية ({{ count }})",
+
+"sorting.organization.legalName.ASC":"الاسم تصاعدياً",
+"sorting.organisation.address.addressCountry.ASC":"الدولة تصاعدياً",
+"sorting.organisation.address.addressLocality.ASC":"المدينة تصاعدياً",
+"sorting.organisation.foundingDate.DESC":"تاريخ التأسيس تنازلياً",
   // Era translation
 
 }

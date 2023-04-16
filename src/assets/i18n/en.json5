@@ -6191,7 +6191,34 @@
    'era.page.year':'Year',
    'era.page.titleprefix':'Era:',
    'era.listelement.badge':'Era',
+'submission.sections.describe.relationship-lookup.title.isEventOfEra':'Events',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isEventOfEra':'Local Events ({{ count }})',
 
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfEra':'Administration',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfEra':'Local Administrations ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isActivityOfEra":"Activities",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isActivityOfEra":"Local Activities ({{ count }})",
+
+'submission.sections.describe.relationship-lookup.title.isPlaceOfEra':'Places',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPlaceOfEra':'Local Places ({{ count }})',
+
+"submission.sections.describe.relationship-lookup.title.isSiteOfEra":"Sites",
+"submission.sections.describe.relationship-lookup.search-tab.tab-title.isSiteOfEra":" Local Sites ({{ count }})",
+
+'submission.sections.describe.relationship-lookup.title.isOrgUnitOfEra':'Organizational Units',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isOrgUnitOfEra':'Local Organizational Units ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isAdministrationOfEra':'Administrations',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isAdministrationOfEra':'Local Administrations ({{ count }})',
+
+'submission.sections.describe.relationship-lookup.title.isPersonOfEra':'Persons',
+'submission.sections.describe.relationship-lookup.search-tab.tab-title.isPersonOfEra':'Local Persons ({{ count }})',
+
+"sorting.organization.legalName.ASC":"Name Ascending",
+"sorting.organisation.address.addressCountry.ASC":"Country Ascending",
+"sorting.organisation.address.addressLocality.ASC":"City Ascending",
+"sorting.organisation.foundingDate.DESC":"Founding Date Descending",
   // Era translation
 
 }
