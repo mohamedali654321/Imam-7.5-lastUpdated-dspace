@@ -6219,6 +6219,10 @@
 "sorting.organisation.address.addressCountry.ASC":"Country Ascending",
 "sorting.organisation.address.addressLocality.ASC":"City Ascending",
 "sorting.organisation.foundingDate.DESC":"Founding Date Descending",
+
+'search.filters.applied.f.century':'Century',
+'search.filters.applied.f.decade':'Decade',
+'search.filters.applied.f.year':'Year',
   // Era translation
 
 }

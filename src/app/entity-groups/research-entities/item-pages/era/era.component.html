@@ -129,7 +129,7 @@
     
 
       <ds-generic-item-page-field [item]="object"
-      [fields]="['era.year']"
+      [fields]="['era.yearOccurrence']"
       [label]="'era.page.year'">
     </ds-generic-item-page-field>
 
@@ -149,13 +149,13 @@
     [label]="'relationships.isOrgUnitOf' | translate">
   </ds-related-items>
 
-
+<!-- 
   <ds-related-items
   [parentItem]="object"
   [relationType]="'isPersonOfEra'"
   [label]="'relationships.isPersonOf' | translate">
 </ds-related-items>
-  
+   -->
   
   <ds-related-items
   [parentItem]="object"
@@ -196,12 +196,12 @@
 </ds-related-items>
 
 
-  <ds-related-items
+  <!-- <ds-related-items
   [parentItem]="object"
   [relationType]="'isPublicationOfEra'"
   [label]="'relationships.isPublicationOf' | translate">
 </ds-related-items>
-  
+   -->
   
   
       <div>
@@ -211,23 +211,21 @@
       </div>
     </div>
     <div class="mt-5 w-100">
-      <!-- <ds-tabbed-related-entities-search  [item]="object"
-                                          [relationTypes]="[{
+      <ds-tabbed-related-entities-search  [item]="object"
+                                          [relationTypes]="[
+                                          {
+                                            label: 'isAuthorOfPublication',
+                                            filter: 'isAuthorOfPublication',
+                                            configuration: 'default-relationships'
+                                            },
+                                          {
                                             label: 'isOrgUnitOfPerson',
-                                            filter: 'isOrgUnitOfPerson',
+                                            filter: 'isEraOfPerson',
                                             configuration: 'person-relationships'
-                                          },
-                                          {
-                                            label: 'isChildOfOrgUnit',
-                                            filter: 'isOrgUnitOfSubOrgUnit',
-                                            configuration: 'orgunit-relationships'
-                                          },
-                                          {
-                                            label: 'isOrgUnitOfProject',
-                                            filter: 'isOrgUnitOfProject',
-                                            configuration: 'project-relationships'
-                                          }]">
-      </ds-tabbed-related-entities-search> -->
+                                          }
+                                         
+                                          ]">
+      </ds-tabbed-related-entities-search>
     </div>
   </div>
   

@@ -108,7 +108,7 @@ export class MetadataValuesComponent implements OnChanges {
      if (this.link === 'type') {this.link = 'itemtype';}
      // if(this.link === 'date') this.link="issued";
 
-     if (this.link === 'date' || this.link === 'issuedate') {this.link = 'issued';}
+     if (this.link === 'date' || this.link === 'issuedate' || this.link.includes('Date')) {this.link = 'issued';}
 
       if (this.link === 'authoralternative') {this.link = 'author';}
 

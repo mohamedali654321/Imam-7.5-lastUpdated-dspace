@@ -6304,6 +6304,10 @@
 "sorting.organisation.address.addressCountry.ASC":"الدولة تصاعدياً",
 "sorting.organisation.address.addressLocality.ASC":"المدينة تصاعدياً",
 "sorting.organisation.foundingDate.DESC":"تاريخ التأسيس تنازلياً",
+
+'search.filters.applied.f.century':'القرن',
+'search.filters.applied.f.decade':'العقد',
+'search.filters.applied.f.year':'السنة',
   // Era translation
 
 }
