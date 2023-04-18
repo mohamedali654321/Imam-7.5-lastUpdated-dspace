@@ -40,6 +40,7 @@ import { CollectionDataService } from 'src/app/core/data/collection-data.service
 import { CollectionSearchResult } from 'src/app/shared/object-collection/shared/collection-search-result.model';
 import { SubmissionObject } from 'src/app/core/submission/models/submission-object.model';
 import { SubmissionService } from 'src/app/submission/submission.service';
+import { ActivatedRoute } from '@angular/router';
 /** kware end edit */
 @Component({
   selector: 'ds-dynamic-lookup-relation-modal',
@@ -115,6 +116,8 @@ export class DsDynamicLookupRelationModalComponent implements OnInit, OnDestroy 
 
   modelPlaceholder: string;
 
+ //check url
+ isWorkSpace:boolean;
 
   /** kware end edit */
 
@@ -193,6 +196,7 @@ export class DsDynamicLookupRelationModalComponent implements OnInit, OnDestroy 
    private searchService: SearchService,
    private collectionDataService: CollectionDataService,
    private submissionService: SubmissionService,
+   private route: ActivatedRoute
    /** kware end edit */
   ) {
 
@@ -240,7 +244,8 @@ kware-edit start
 -add fast add btn
 - get collection by entity type 
 */
-
+// check if url has workspaceitems to display fast add btn
+this.isWorkSpace = this.route.snapshot['_routerState'].url.includes('workspaceitems/') ? true:false;
 let searchListService$: Observable<RemoteData<PaginatedList<Collection>>> = null;
 searchListService$ = this.collectionDataService
     .getAuthorizedCollection(this.relationshipOptions?.searchConfiguration === 'journal' ? this.relationshipOptions?.searchConfiguration+'~0':this.relationshipOptions?.searchConfiguration,{} ,true, false, followLink('parentCommunity'));
