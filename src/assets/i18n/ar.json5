@@ -6310,4 +6310,57 @@
 'search.filters.applied.f.year':'السنة',
   // Era translation
 
+
+   "search.filters.filter.personNickname.head": 'الكنية',
+  "search.filters.filter.personNickname.label": "بحث اسم الكنية",
+  "search.filters.filter.personNickname.placeholder": "اسم الكنية ",
+  "search.filters.applied.f.personNickname": "الكنية",
+
+
+   "search.filters.filter.personTitle.head": 'اللقب',
+  "search.filters.filter.personTitle.label": "بحث اسم اللقب",
+  "search.filters.filter.personTitle.placeholder": "اسم اللقب ",
+  "search.filters.applied.f.personTitle": "اللقب",
+
+   "search.filters.filter.birthPlace.head": 'محل الميلاد',
+  "search.filters.filter.birthPlace.label": "بحث محل الميلاد",
+  "search.filters.filter.birthPlace.placeholder": "محل الميلاد",
+  "search.filters.applied.f.birthPlace": "محل الميلاد",
+
+   "search.filters.filter.personEra.head": 'العصر',
+  "search.filters.filter.personEra.label": "بحث اسم العصر",
+  "search.filters.filter.personEra.placeholder": "اسم العصر ",
+  "search.filters.applied.f.personEra": "العصر",
+
+  "search.filters.applied.f.deathDate.max": "نهاية تاريخ الوفاة",
+  "search.filters.applied.f.deathDate.min": "بداية تاريخ الوفاة",
+  "search.filters.filter.deathDate.head": "تاريخ الوفاة",
+  "search.filters.filter.deathDate.placeholder": "تاريخ الوفاة",
+  "search.filters.filter.deathDate.label": "بحث تاريخ الوفاة",
+  "search.filters.applied.f.deathDate": "تاريخ الوفاة",
+'search.filters.filter.deathDate.min.label':'بدء',
+'search.filters.filter.deathDate.max.label':'إنتهاء',
+
+
+   "search.filters.filter.childLegalNameAlternative.head": 'اسم الإدارة سابقا',
+  "search.filters.filter.childLegalNameAlternative.label": "بحث اسم الإدارة سابقا",
+  "search.filters.filter.childLegalNameAlternative.placeholder": "اسم الإدارة سابقا",
+  "search.filters.applied.f.childLegalNameAlternative": "اسم الإدارة سابقا",
+
+
+     "search.filters.filter.ror.head": 'سجل منظمة البحث',
+  "search.filters.filter.ror.label": "بحث رقم سجل منظمة البحث",
+  "search.filters.filter.ror.placeholder": "رقم سجل منظمة البحث ",
+  "search.filters.applied.f.ror": "سجل منظمة البحث",
+
+
+     "search.filters.filter.placeLegalName.head": 'المكان',
+  "search.filters.filter.placeLegalName.label": "بحث اسم المكان",
+  "search.filters.filter.placeLegalName.placeholder": "اسم المكان ",
+  "search.filters.applied.f.placeLegalName": "المكان",
+
+
+
+
+
 }

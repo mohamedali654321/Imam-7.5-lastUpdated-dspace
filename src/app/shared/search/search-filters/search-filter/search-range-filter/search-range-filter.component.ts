@@ -52,7 +52,7 @@ export class SearchRangeFilterComponent extends SearchFacetFilterComponent imple
   /**
    * Fallback minimum for the range
    */
-  min = 1950;
+  min = 1;
 
   /**
    * Fallback maximum for the range

@@ -6225,6 +6225,51 @@
 'search.filters.applied.f.year':'Year',
   // Era translation
 
+
+   "search.filters.filter.personNickname.head": "Nickname",
+  "search.filters.filter.personNickname.label": "Search Nickname",
+  "search.filters.filter.personNickname.placeholder": "Nickname",
+  "search.filters.applied.f.personNickname": "Nickname",
+
+     "search.filters.filter.personTitle.head": "Color",
+  "search.filters.filter.personTitle.label": "Search title name",
+  "search.filters.filter.personTitle.placeholder": "Title",
+  "search.filters.applied.f.personTitle": "Title",
+
+  "search.filters.filter.birthPlace.head": "Birth place",
+  "search.filters.filter.birthPlace.label": "Search birth place",
+  "search.filters.filter.birthPlace.placeholder": "Birth place",
+  "search.filters.applied.f.birthPlace": "Birth place",
+
+  "search.filters.filter.personEra.head": "Era",
+  "search.filters.filter.personEra.label": "Search era name",
+  "search.filters.filter.personEra.placeholder": "Era name",
+  "search.filters.applied.f.personEra": "Era",
+
+"search.filters.applied.f.deathDate.max": "End death date",
+"search.filters.applied.f.deathDate.min": "Start death date",
+  "search.filters.filter.deathDate.head": "Death Date",
+  "search.filters.filter.deathDate.placeholder": "Death Date",
+  "search.filters.filter.deathDate.label": "Search death date",
+  "search.filters.applied.f.deathDate": "Death Date",
+  'search.filters.filter.deathDate.min.label':'Start',
+'search.filters.filter.deathDate.max.label':'End',
+
+
+  "search.filters.filter.childLegalNameAlternative.head": "Previous administration Name",
+  "search.filters.filter.childLegalNameAlternative.label": "Search previous administration Name",
+  "search.filters.filter.childLegalNameAlternative.placeholder": "Previous administration Name",
+  "search.filters.applied.f.childLegalNameAlternative": "Previous administration Name",
+
+  "search.filters.filter.placeLegalName.head": "Place",
+  "search.filters.filter.placeLegalName.label": "Search place name",
+  "search.filters.filter.placeLegalName.placeholder": "Place name",
+  "search.filters.applied.f.placeLegalName": "Place",
+
+    "search.filters.filter.ror.head": "Research Organization Registry(ROR)",
+  "search.filters.filter.ror.label": "Search Research Organization Registry number",
+  "search.filters.filter.ror.placeholder": "Research Organization Registry number",
+  "search.filters.applied.f.ror": "Research Organization Registry(ROR)",
 }
 
 
